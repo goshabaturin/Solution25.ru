@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Решение математики Владивосток</title>
-    <link>http://solution25.ru/</link>
+    <link>https://goshabaturin.github.io/Solution25.ru/</link>
     <description>Recent content on Решение математики Владивосток</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://solution25.ru/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://goshabaturin.github.io/Solution25.ru/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

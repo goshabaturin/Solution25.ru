@@ -1,4 +1,4 @@
-baseurl = "http://solution25.ru/"
+baseurl = "https://goshabaturin.github.io/Solution25.ru/"
 languageCode = "en-us"
 title = "Решение математики Владивосток"
 theme = "hugo-creative-theme"
