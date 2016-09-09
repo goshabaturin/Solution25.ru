@@ -1,0 +1,45 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.contact.headline }}{{ . }}{{ end }}</h2>
+                <hr class="primary">
+                <p>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+
+            <div class="col-lg-2 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                <p>{{ with .Site.Params.contact.phone }}{{ . }}{{ end }}</p>
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p><a href="mailto:{{ with .Site.Params.contact.email }}{{ . }}{{ end }}">{{ with .Site.Params.contact.email }}{{ . }}{{ end }}</a></p>
+            </div>
+
+
+            </br>
+            
+            <div class="col-lg-2 col-lg-offset-2 text-center">
+
+              <form action="https://formspree.io/{{ with .Site.Params.contact.email }}{{ . }}{{ end }}" method="POST">
+                    <input type="hidden" name="_subject" value="Новое обрашение с сайта!" />  
+                     <input type="text" name="_gotcha" style="display:none" />
+
+                  <p>  <input type="text" name="name"  rows="1" cols="35" placeholder="Как к Вам обращаться ?"> </p>
+                  <p> <input type="text" name="contact" rows="1" cols="35" placeholder="Как с Вами связаться (тел. или email)?"> </p>
+                  <textarea rows="5" cols="35" name="subject" placeholder="Что бы Вы хотели сказать?" class="message" required></textarea>
+                  <p> <input type="submit" value="Отправить"> </p>
+                </form>
+                
+
+                
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+</section>

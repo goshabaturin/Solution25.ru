@@ -1,0 +1,12 @@
+{{ "<!-- FOOTER -->" | safeHTML }}
+<aside class="bg-dark">
+    <div class="container text-left">
+
+            <h5 id='copyright'>&#169;	{{ with .Site.Params.footer.copyright }}{{ . }}{{ end }} </h5>
+
+            <h5 class="text-faded">{{ with .Site.Params.footer.headline }}{{ . }}{{ end }} <br>
+            	<a href = '{{ with .Site.Params.footer.author_link }}{{ . }}{{ end }}'>{{ with .Site.Params.footer.author }}{{ . }}{{ end }} </a>
+            </h5>
+        
+    </div>
+</aside>

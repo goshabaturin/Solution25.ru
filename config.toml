@@ -1,0 +1,97 @@
+baseurl = "http://solution25.ru/"
+languageCode = "en-us"
+title = "Решение математики Владивосток"
+theme = "hugo-creative-theme"
+
+[params]
+
+	name = "Решение высшей математики во Владивостоке"
+	description = "Решение домашних и контрольных работа по высшей математике, теории вероятности, линейной алгебре и аналитической геометрии во Владивостоке"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Solution25"
+
+		[params.navigation.links]
+			about     = "О нас"
+			services  = "Мы решаем"
+			contact   = "Контакты"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = " Решение математики для ВУЗов"
+		subtitle   = "Качественно, быстро, не дорого"
+		buttonText = "Узнать больше"
+
+
+	# About section
+	[params.about]
+		headline    = "Мы действительно умеем решать!"
+		description = "Общий стаж преподавания математических дисцеплин в ВУЗах города более 50 лет, огромный опыт решения нетривиальных заданий и существование на рынке более 5 лет, позволяют быть уверенными в том, что Ваши задания будут выполнены качественно и в срок! "
+		buttonText  = "Связаться!"
+
+
+	# Service section
+	[params.services]
+		headline = "Мы решаем"
+
+        [[params.services.list]]
+            icon = "fa-graduation-cap"
+            title = "Высшую математику"
+            description = ""
+
+        [[params.services.list]]
+			icon = "fa-cogs"
+			title = "Математический анализ"
+			description = ""
+
+		[[params.services.list]]
+            icon = "fa-area-chart"
+            title = "Линейную алгебру"
+            description = ""
+
+        [[params.services.list]]
+            icon = "fa-cubes"
+            title = "Аналитическую геометрию"
+            description = ""
+
+        [[params.services.list]]
+            icon = "fa-magic"
+            title = "Теорию вероятности"
+            description = ""
+
+        [[params.services.list]]
+            icon = "fa-sitemap"
+            title = "Дифференциальные уравнения"
+            description = ""
+
+
+
+
+    # Aside section
+	[params.aside]
+		headline = "Схема работы с нами"
+
+		[params.aside.button]
+			text = "Вы можете передать нам задания по электронной почте, через What's up или iMassage. Мы не берем никаких авансовых платежей. Оплата производится только при получении готовых решений. "
+
+	# Contact section
+	[params.contact]
+		headline = "Связаться с нами"
+		description = "Если у Вас остались вопросы или есть задания для решения, просто свяжитесь с нами!"
+		phone = "8(914)076-74-13"
+		email = "solution.vladivostok@gmail.com"
+
+	 # Footer section
+	[params.footer]
+		copyright ="Solution25.ru"
+		headline = "Создатель сайта"
+		author = "Георгий Батурин"
+		author_link = "https://vk.com/id5069580"
+
